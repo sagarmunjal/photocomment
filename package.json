@@ -1,0 +1,29 @@
+{
+  "name": "photocomment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarmunjal/photocomment.git"
+  },
+  "author": "sagarmunjal",
+  "license": "ISC",
+  "dependencies":{
+    "body-parser": "^1.15.0",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.6"
+    },
+  "bugs": {
+    "url": "https://github.com/sagarmunjal/photocomment/issues"
+  },
+  "homepage": "https://github.com/sagarmunjal/photocomment#readme"
+}
