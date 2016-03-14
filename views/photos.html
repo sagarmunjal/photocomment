@@ -23,7 +23,11 @@
 		</div>
 	</div>
 	<div ng-controller="pageController">
-		<div id="pageComments" ng-init="addComment=false"
+		<div id="pageComments" ng-init="addComment=false;replySubject='';replyBody=''">
+			<div class="comment" ng-include="'/static/comment_thread.html"></div>
+		</div>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script type="text/javascript" src="/static/js/comment_app.js"></script>
 </body>
 </html>
